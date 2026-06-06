@@ -1,0 +1,22 @@
+# Core data science
+numpy
+pandas
+scikit-learn
+
+# Visualization
+matplotlib
+plotly
+
+# Notebooks
+jupyter
+ipykernel
+
+# Deep learning
+torch
+
+# Web frontend
+streamlit
+
+# Utilities
+joblib
+python-dotenv

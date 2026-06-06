@@ -1,0 +1,40 @@
+# Virtual environments
+.venv/
+venv/
+env/
+ENV/
+
+# Python
+__pycache__/
+*.py[cod]
+.ipynb_checkpoints/
+
+# Local environment variables
+.env
+
+# Local data
+data/raw/*
+data/processed/*
+!data/raw/.gitkeep
+!data/processed/.gitkeep
+
+# Model artifacts
+models/*
+!models/.gitkeep
+*.pt
+*.pth
+*.pkl
+*.joblib
+*.onnx
+
+# Generated results
+results/*
+!results/.gitkeep
+!results/figures/
+!results/figures/.gitkeep
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
